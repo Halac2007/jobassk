@@ -1,8 +1,8 @@
-import { AppBar, Button, Grid, IconButton, Link, Toolbar, Typography } from '@mui/material'
+import AccountCircle from '@mui/icons-material/AccountCircle'
+import { AppBar, Button, IconButton, Link, Toolbar } from '@mui/material'
 import { Container } from '@mui/system'
 import React from 'react'
 import Searchs from './Searchs'
-import AccountCircle from '@mui/icons-material/AccountCircle'
 const Header = () => {
   return (
     <>
