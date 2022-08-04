@@ -10,8 +10,6 @@ const Services = () => {
   const [bottomPost, setBottomPost] = useState([])
   const [listPost, setListPost] = useState([])
 
-  const [views, setViews] = useState(0)
-
   const [page, setPage] = useState([])
   useEffect(() => {
     const url = `https://crawlassk.herokuapp.com/`
@@ -25,9 +23,9 @@ const Services = () => {
         time: item.time,
       }))
       setOaPost(data.slice(4, 5))
-      setBottomPost(data.slice(6, 9))
-      setRightPost(data.slice(10, 17))
-      setListPost(data.slice(17, 25))
+      setBottomPost(data.slice(5, 8))
+      setRightPost(data.slice(8, 15))
+      setListPost(data.slice(15, 25))
     })
   }, [])
 
