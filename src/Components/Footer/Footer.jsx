@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Grid container spacing={2} maxWidth="900px" m="auto" p="30px 0px" sx={{ borderTop: '1px solid #eee' }}>
+    <Grid container maxWidth="900px" m="auto" p="30px 0px" sx={{ borderTop: '1px solid #eee' }}>
       <Grid container item xs={12} sm={3} md={3} spacing={1}>
         <Link to="/">
           <img src="https://static-cms-plo.zadn.vn/v3/web/styles/img/logo.png" alt="" height={'30px'} />
